@@ -88,7 +88,7 @@ public class TemperatureSeriesAnalysisTest {
     public void testfindTempClosestToValue() {
         double[] temperatureSeries = {3.0, 4, 2, 1, 5, 8};
         TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
-        double expResult = 3.0;
+        double expResult = 1.0;
 
         double actualResult = seriesAnalysis.findTempClosestToValue(7);
 
@@ -117,5 +117,69 @@ public class TemperatureSeriesAnalysisTest {
         assertArrayEquals(expResult, actualResult, 0.00001);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testfindEmpty() {
+        double[] temperatureSeries = {};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+
+        // expect exception here
+        seriesAnalysis.deviation();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testfindEmptyMax() {
+        double[] temperatureSeries = {};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+
+        // expect exception here
+        seriesAnalysis.max();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testfindEmptyMin() {
+        double[] temperatureSeries = {};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+
+        // expect exception here
+        seriesAnalysis.min();
+    }
+
+
+    @Test
+    public void testfindNotEmptyMax() {
+        double[] temperatureSeries = {3.0, 4, 2, 1, 5, 8};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+        double res = seriesAnalysis.max();
+        // expect exception here
+        assertEquals(8.0, res, 0.1);
+    }
+
+    @Test
+    public void testfindNotEmptyMin() {
+        double[] temperatureSeries = {3.0, 4, 2, 1, 5, 8};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+
+        // expect exception here
+        assertEquals(1, seriesAnalysis.min(), 0.1);
+    }
+
+
+    @Test
+    public void testfindTempClosestToZero() {
+        double[] temperatureSeries = {3.0, 4, 2, 1, 5, 8};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+
+        // expect exception here
+        assertEquals(1, seriesAnalysis.findTempClosestToZero(), 0.1);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testFindTempClosestToZeroWithZero() {
+        double[] temperatureSeries = {};
+        TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
+
+        // expect exception here
+        seriesAnalysis.findTempClosestToZero();
+    }
 
 }

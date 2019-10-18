@@ -72,7 +72,7 @@ public class TemperatureSeriesAnalysis {
     }
 
     public double findTempClosestToZero() {
-        if (lengthh > 0) {
+        if (temperature.length > 0) {
             return findTempClosestToValue(0);
         } else {
             throw new IllegalArgumentException();
@@ -82,7 +82,7 @@ public class TemperatureSeriesAnalysis {
     public double findTempClosestToValue(double tempValue) {
         if (temperature.length > 0) {
             double min = Math.abs(temperature[0]);
-            for (int i = 0; i < lengthh; i++) {
+            for (int i = 0; i < temperature.length; i++) {
                 if (min > Math.abs(temperature[i])) {
                     min = temperature[i];
                 }
