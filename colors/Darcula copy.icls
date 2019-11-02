@@ -1,0 +1,151 @@
+<scheme name="Darcula copy" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-09-04T14:26:13</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2018.2.2.0.0</property>
+    <property name="modified">2019-11-02T18:39:01</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9b65" />
+      </value>
+    </option>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="85c6a7" />
+      </value>
+    </option>
+    <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7f892a" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="6b9b00" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e2ca4a" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e2ca4a" />
+      </value>
+    </option>
+    <option name="CSS.CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="30d465" />
+      </value>
+    </option>
+    <option name="CSS.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="dee85a" />
+      </value>
+    </option>
+    <option name="CSS.UNICODE.RANGE">
+      <value>
+        <option name="FOREGROUND" value="e896b9" />
+      </value>
+    </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="6868aa" />
+      </value>
+    </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="39b00" />
+      </value>
+    </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="c8915e" />
+      </value>
+    </option>
+    <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9876aa" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="INTERFACE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b7c6" />
+      </value>
+    </option>
+    <option name="JS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="ca01a" />
+      </value>
+    </option>
+    <option name="LOCAL_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="6868aa" />
+      </value>
+    </option>
+    <option name="PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="487fc0" />
+      </value>
+    </option>
+    <option name="SONARLINT_BLOCKER">
+      <value>
+        <option name="BACKGROUND" value="bc3f3c" />
+        <option name="ERROR_STRIPE_COLOR" value="9e2927" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPEL.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="85b8c6" />
+      </value>
+    </option>
+    <option name="SPEL.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="6e83bb" />
+      </value>
+    </option>
+    <option name="SPEL.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="24b770" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b87f9c" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="6b9b00" />
+      </value>
+    </option>
+    <option name="TS.INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="b7c6" />
+      </value>
+    </option>
+    <option name="XML_PROLOGUE">
+      <value>
+        <option name="FOREGROUND" value="a9b72e" />
+      </value>
+    </option>
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="d49164" />
+      </value>
+    </option>
+    <option name="XML_TAG_DATA">
+      <value>
+        <option name="FOREGROUND" value="a273" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
